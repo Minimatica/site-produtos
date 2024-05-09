@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -33,7 +34,7 @@ body {
 }
 
 .produtos {
-    margin-top: 67px;
+    margin-top: 189px;
 
 }
 
@@ -41,7 +42,7 @@ body {
     text-align: center;
     font-size: 49px;
     font-weight: 600;
-    margin-bottom: 19px;
+    margin-bottom: 74px;
 }
 
 .linha{
@@ -62,7 +63,7 @@ body {
 }
 
 .botao{
-    background-color: #5a6ab8;
+    background-color: #6a7091;
     text-decoration: none;
     color: #fff;
     font-weight: 500;
@@ -73,5 +74,17 @@ body {
     width: 214px;
     box-sizing: border-box; /*Guto tem explicar isso */
     margin:  0px auto 25px auto;
+}
 
+.contato{
+margin-top: 189px;
+
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #d9d9d9;
 }
